@@ -3,29 +3,11 @@
  * 
  * 
 
-node ./copyasset.js sourceFile=H:/prod_assets/prod_assets/index-pipelines.json targetKey=YWRtaW46RzBQYXJrZXIxMjM= targetApp=ParkerDotComMain targetHost=searchdevapiv5913.us.parker.corp targetPort=443 assetName=index-pipelines source=index-pipelines
-node ./copyasset.js sourceFile=H:/prod_assets/prod_assets/index-profiles.json targetKey=YWRtaW46RzBQYXJrZXIxMjM= targetApp=ParkerDotComMain targetHost=searchdevapiv5913.us.parker.corp targetPort=443 assetName=index-profiles source=index-profiles
-
-node ./copyasset.js sourceFile=H:/prod_assets/prod_assets/datasources.json targetKey=YWRtaW46RzBQYXJrZXIxMjM= targetApp=ParkerDotComMain targetHost=searchdevapiv5913.us.parker.corp targetPort=443 assetName=connectors/datasources source=datasources defaultObjects="{\"url\": \"jdbc:sqlserver://COR089XD06.us.parker.corp:51001;databaseName=ParkerDotComExt;encrypt=false\",\"password\":\"LOW%491wc\",\"zk_host_string\": \"ns-dev-zookeeper-0.ns-dev-zookeeper-headless:2181,ns-dev-zookeeper-1.ns-dev-zookeeper-headless:2181,ns-dev-zookeeper-2.ns-dev-zookeeper-headless:2181\"}"
- 
-node ./copyasset.js sourceFile=H:/prod_assets/prod_assets/query-profiles.json targetKey=YWRtaW46RzBQYXJrZXIxMjM= targetApp=ParkerDotComMain targetHost=searchdevapiv5913.us.parker.corp targetPort=443 assetName=query-profiles source=query-profiles
-node ./copyasset.js sourceFile=H:/prod_assets/prod_assets/query-pipelines.json targetKey=YWRtaW46RzBQYXJrZXIxMjM= targetApp=ParkerDotComMain targetHost=searchdevapiv5913.us.parker.corp targetPort=443 assetName=query-pipelines source=query-pipelines
- 
-node ./copyasset.js sourceFile=H:/prod_assets/prod_assets/index-pipelines/ParkerDotComMain-Parts.json targetKey=YWRtaW46RzBQYXJrZXIxMjM= targetApp=ParkerDotComMain targetHost=searchdevapiv5.us.parker.corp targetPort=443 assetName=index-pipelines source=index-pipelines includeOnly=ParkerDotComMain-Parts
-node ./copyasset.js sourceFile=H:/prod_assets/prod_assets/datasources/PDCM-Parts-G1-JDBC.json targetKey=YWRtaW46RzBQYXJrZXIxMjM= targetApp=ParkerDotComMain targetHost=searchdevapiv5.us.parker.corp targetPort=443 assetName=connectors/datasources source=datasources includeOnly=PDCM-Parts-G1-JDBC defaultObjects="{\"url\": \"jdbc:sqlserver://COR089XD06.us.parker.corp:51001;databaseName=ParkerDotComExt\",\"password\":\"xxxxxx\"}"
- 
- 
-node ./copyasset.js sourceFile=H:/prod_assets/prod_assets/index-pipelines/ParkerDotComMain-Parts.json targetKey=YWRtaW46RzBQYXJrZXIxMjM= targetApp=ParkerDotComMain targetHost=searchdevapiv5.us.parker.corp targetPort=443 assetName=index-pipelines source=index-pipelines includeOnly=ParkerDotComMain-WebIandS
-node ./copyasset.js sourceFile=H:/prod_assets/prod_assets/datasources/PDCM-Web-I_and_S.json targetKey=YWRtaW46RzBQYXJrZXIxMjM= targetApp=ParkerDotComMain targetHost=searchdevapiv5.us.parker.corp targetPort=443 assetName=connectors/datasources source=datasources includeOnly=PDCM-Web-I_and_S
- 
-node ./copyasset.js sourceFile=H:/prod_assets/prod_assets/datasources.json targetKey=YWRtaW46RzBQYXJrZXIxMjM= targetApp=ParkerDotComMain targetHost=searchdevapiv5.us.parker.corp targetPort=443 assetName=connectors/datasources source=datasources defaultObjects="{\"url\": \"jdbc:sqlserver://COR089XD06.us.parker.corp:51001;databaseName=ParkerDotComExt;encrypt=false\",\"password\":\"LOW%491wc\",\"zk_host_string\": \"ns-dev-zookeeper-0.ns-dev-zookeeper-headless:2181,ns-dev-zookeeper-1.ns-dev-zookeeper-headless:2181,ns-dev-zookeeper-2.ns-dev-zookeeper-headless:2181\"}" includeOnly=PDCM-Parts-G5-JDBC
- 
-
- 
- node ./copyasset.js sourceFile=H:/prod_assets/prod_assets/datasources.json targetKey=YWRtaW46RzBQYXJrZXIxMjM= targetApp=ParkerDotComMain targetHost=searchdevapiv5.us.parker.corp targetPort=443 assetName=connectors/datasources source=datasources defaultObjects="{\"url\": \"jdbc:sqlserver://COR089XD06.us.parker.corp:51001;databaseName=ParkerDotComExt;encrypt=false\",\"password\":\"LOW%491wc\"}" includeOnly=Pull-STAGE-AEM-Support-Private
- 
-node ./copyasset.js sourceFile=H:/prod_assets/prod_assets/datasources.json targetKey=YWRtaW46RzBQYXJrZXIxMjM= targetApp=ParkerDotComMain targetHost=searchdevapiv5.us.parker.corp targetPort=443 assetName=connectors/datasources source=datasources defaultObjects="{\"url\": \"jdbc:sqlserver://COR089XD06.us.parker.corp:51001;databaseName=ParkerDotComExt;encrypt=false\",\"password\":\"LOW%491wc\",\"zk_host_string\": \"ns-dev-zookeeper-0.ns-dev-zookeeper-headless:2181,ns-dev-zookeeper-1.ns-dev-zookeeper-headless:2181,ns-dev-zookeeper-2.ns-dev-zookeeper-headless:2181\"}" includeOnly=PDCM-Parts-Missing-JDBC
- 
+node ./copyasset.js sourceFile=H:/prod_assets/prod_assets/index-pipelines.json targetKey=xxx targetApp=fusionapp targetHost=fusionhost targetPort=443 assetName=index-pipelines source=index-pipelines defaultObjects="{}"
+node ./copyasset.js sourceFile=H:/prod_assets/prod_assets/index-profiles.json targetKey=xxx targetApp=fusionapp targetHost=fusionhost targetPort=443 assetName=index-profiles source=index-profiles defaultObjects="{}"
+node ./copyasset.js sourceFile=H:/prod_assets/prod_assets/datasources.json targetKey=xxx targetApp=fusionapp targetHost=fusionhost targetPort=443 assetName=connectors/datasources source=datasources defaultObjects="{}"
+node ./copyasset.js sourceFile=H:/prod_assets/prod_assets/query-profiles.json targetKey=xxx targetApp=fusionapp targetHost=fusionhost targetPort=443 assetName=query-profiles source=query-profiles defaultObjects="{}"
+node ./copyasset.js sourceFile=H:/prod_assets/prod_assets/query-pipelines.json targetKey=xxx targetApp=fusionapp targetHost=fusionhost targetPort=443 assetName=query-pipelines source=query-pipelines defaultObjects="{}"
 * 
  */
 
@@ -34,7 +16,21 @@ const fs = require('fs'),
 	readline = require('readline'),
 	stream = require('stream');
 
-	const commandLine = {};
+const commandLine = {};
+
+	process.env.forEach((val, index) => {
+  console.log(`${index}: ${val}`);
+  if( index > 1 ){
+	let v = val;
+	
+	if( v.indexOf("=") ){
+		let name = v.substring(0,v.indexOf("="));
+		commandLine[name] = v.substring(v.indexOf("=")+1);
+		if( commandLine[name].endsWith("'") && commandLine[name].startsWith("'") )
+			commandLine[name] = commandLine[name].substring(1,commandLine[name].length-2);
+	}
+  }
+});
 
 process.argv.forEach((val, index) => {
   console.log(`${index}: ${val}`);
@@ -49,6 +45,7 @@ process.argv.forEach((val, index) => {
 	}
   }
 });
+
 process.env["NODE_TLS_REJECT_UNAUTHORIZED"]=0;
 
 console.log("commandline",commandLine);
@@ -59,7 +56,7 @@ const sourceApp = commandLine.hasOwnProperty('sourceApp') ? commandLine['sourceA
 const targetApp = commandLine.hasOwnProperty('targetApp') ? commandLine['targetApp'] : '';
 
 const sourceFile = commandLine.hasOwnProperty('sourceFile') ? commandLine['sourceFile'] : false;
-const sourceHost = commandLine.hasOwnProperty('sourceHost') ? commandLine['sourceHost'] : "autozone-qa.b.lucidworks.cloud";
+const sourceHost = commandLine.hasOwnProperty('sourceHost') ? commandLine['sourceHost'] : "fusdionhost";
 const sourcePort = commandLine.hasOwnProperty('sourcePort') ? commandLine['sourcePort'] : 443;
 const sourcePath = commandLine.hasOwnProperty('sourcePath') ? commandLine['sourcePath'] : "/api/" + (sourceApp ? 'apps/' + sourceApp + '/': '') + assetName;
 const sourceKey = commandLine.hasOwnProperty('sourceKey') ? commandLine['sourceKey'] : "";
@@ -68,7 +65,7 @@ const defaultObjects = commandLine.hasOwnProperty('defaultObjects') ? JSON.parse
 
 const excludeList = commandLine.hasOwnProperty('excludeList') ? commandLine['excludeList'].split(",") : [];
 const includeOnly = commandLine.hasOwnProperty('includeOnly') ? commandLine['includeOnly'] : "";
-const targetHost = commandLine.hasOwnProperty('targetHost') ? commandLine['targetHost'] : "autozone-qa.b.lucidworks.cloud";
+const targetHost = commandLine.hasOwnProperty('targetHost') ? commandLine['targetHost'] : "fusionhost";
 const targetPort = commandLine.hasOwnProperty('targetPort') ? commandLine['targetPort'] : 443;
 const targetKey = commandLine.hasOwnProperty('targetKey') ? commandLine['targetKey'] : "";
 const targetAssetName = commandLine.hasOwnProperty('targetAssetName') ? commandLine['targetAssetName'] : assetName;

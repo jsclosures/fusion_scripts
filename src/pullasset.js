@@ -1,86 +1,33 @@
 /**
  * 
  * 
-node ./pullasset.js outFile=H:\current\query-profiles.json sourceApp=ParkerDotComMain sourceHost=cor089xw83.us.parker.corp assetName=query-profiles source=query-profiles
-node ./pullasset.js outFile=H:\current\query-pipelines.json sourceApp=ParkerDotComMain sourceHost=cor089xw83.us.parker.corp assetName=query-pipelines source=query-pipelines
-node ./pullasset.js outFile=H:\current\index-profiles.json sourceApp=ParkerDotComMain sourceHost=cor089xw83.us.parker.corp assetName=index-profiles source=index-profiles
-node ./pullasset.js outFile=H:\currentt\index-pipelines.json sourceApp=ParkerDotComMain sourceHost=cor089xw83.us.parker.corp assetName=index-pipelines source=index-pipelines includeOnly=ParkerDotComMain-EconfigParts
-node ./pullasset.js outFile=H:\current\datasources.json sourceApp=ParkerDotComMain sourceHost=cor089xw83.us.parker.corp assetName=connectors/datasources
+node ./pullasset.js outFile=H:\current\query-profiles.json sourceApp=fusionapp sourceHost=fusionhost assetName=query-profiles source=query-profiles
+node ./pullasset.js outFile=H:\current\query-pipelines.json sourceApp=fusionapp sourceHostfusionhost assetName=query-pipelines source=query-pipelines
+node ./pullasset.js outFile=H:\current\index-profiles.json sourceApp=fusionapp sourceHost=fusionhost assetName=index-profiles source=index-profiles
+node ./pullasset.js outFile=H:\currentt\index-pipelines.json sourceApp=fusionapp sourceHost=fusionhost assetName=index-pipelines source=index-pipelines
+node ./pullasset.js outFile=H:\current\datasources.json sourceApp=fusionapp sourceHost=fusionhost assetName=connectors/datasources
 
-node ./pullasset.js outFile=H:\current\pdcmmainen2query-pipelines.json sourceApp=ParkerDotComMain sourceHost=cor089a533.us.parker.corp assetName=query-pipelines source=query-pipelines includeOnly=ParkerDotComMain-EN2
-
-
-node ./pullasset.js outFile=H:\current\datasources-parts-attributes-desc-fs492.json sourceApp=ParkerDotComMain sourceHost=cor089xw83.us.parker.corp assetName=connectors/datasources includeonly=parts-attributes-desc-fs492
-node ./pullasset.js outFile=H:\current\datasources-parts-attributes-fs492.json sourceApp=ParkerDotComMain sourceHost=cor089xw83.us.parker.corp assetName=connectors/datasources includeonly=parts-attributes-fs492
-node ./pullasset.js outFile=H:\current\datasources-productseries-attributes.json sourceApp=ParkerDotComMain sourceHost=cor089xw83.us.parker.corp assetName=connectors/datasources includeonly=productseries-attributes
-
-
-node ./pullasset.js outFile=H:\currentdev\query-profiles.json sourceApp=ParkerDotComMain sourceHost=cor089ya110.us.parker.corp assetName=query-profiles source=query-profiles
-node ./pullasset.js outFile=H:\currentdev\query-pipelinesPDCMEN2.json sourceApp=ParkerDotComMain sourceHost=cor089ya110.us.parker.corp assetName=query-pipelines source=query-pipelines includeOnly=ParkerDotComMain-EN2
-node ./pullasset.js outFile=H:\currentdev\index-profiles.json sourceApp=ParkerDotComMain sourceHost=cor089ya110.us.parker.corp assetName=index-profiles source=index-profiles
-node ./pullasset.js outFile=H:\currentdev\index-pipelines.json sourceApp=ParkerDotComMain sourceHost=cor089ya110.us.parker.corp assetName=index-pipelines source=index-pipelines
-node ./pullasset.js outFile=H:\currentdev\datasources.json sourceApp=ParkerDotComMain sourceHost=cor089ya110.us.parker.corp assetName=connectors/datasources
-
-node ./pullasset.js outFile=H:\currentdev\index-pipelines-parttaxonomy.json sourceApp=ParkerDotComMain sourceHost=cor089ya110.us.parker.corp assetName=index-pipelines source=index-pipelines includeOnly=clint_part_tax_test
-
-node ./pullasset.js outFile=H:\currentdev\index-pipelines-tactonprev.json sourceApp=ParkerDotComMain sourceHost=cor089a541.us.parker.corp assetName=index-pipelines source=index-pipelines includeOnly=ParkerDotComMain-Tacton
-node ./pullasset.js outFile=H:\currentdev\index-pipelines-tactonprod.json sourceApp=ParkerDotComMain sourceHost=cor089a533.us.parker.corp assetName=index-pipelines source=index-pipelines includeOnly=ParkerDotComMain-Tacton
-
-node ./pullasset.js outFile=H:\current\pdcmmainen2query-pipelines.json sourceApp=ParkerDotComMain sourceHost=cor089a533.us.parker.corp assetName=query-pipelines source=query-pipelines includeOnly=ParkerDotComMain-EN2
-
-
-node --inspect-brk ./pullasset.js outFile=H:\current\query-pipelines-ru.json sourceApp=ParkerDotComMain sourceHost=cor089ya110 assetName=query-pipelines source=query-pipelines includeOnly=ParkerDotComMain-RU
-
-node ./pullasset.js outFile=H:\currentdev\index-pipelines-ParkerDotComMain-EconfigParts.json sourceApp=ParkerDotComMain sourceHost=cor089xw84.us.parker.corp assetName=index-pipelines source=index-pipelines includeOnly=ParkerDotComMain-EconfigParts
- 
- 
- node ./pullasset.js outFile=H:\currentdev\query-pipelinesPDCMEN2.json sourceApp=ParkerDotComMain sourceHost=cor089ya110.us.parker.corp assetName=query-pipelines source=query-pipelines includeOnly=ParkerDotComMain-EN2
-node ./pullasset.js outFile=H:\currenttest\query-pipelinesPDCMEN2.json sourceApp=ParkerDotComMain sourceHost=cor089xa526.us.parker.corp assetName=query-pipelines source=query-pipelines includeOnly=ParkerDotComMain-EN2
-node ./pullasset.js outFile=H:\currenttest\index-pipelinesParts.json sourceApp=ParkerDotComMain sourceHost=cor089xa526.us.parker.corp assetName=index-pipelines source=index-pipelines includeOnly=ParkerDotComMain-Parts
-node ./pullasset.js outFile=H:\currentprod\index-pipelinesParts.json sourceApp=ParkerDotComMain sourceHost=cor089a744.us.parker.corp assetName=index-pipelines source=index-pipelines includeOnly=ParkerDotComMain-Parts
-
-
-node ./pullasset.js outFile=H:\currenttest\query-pipelinesPDCMEN.json sourceApp=ParkerDotComMain sourceHost=cor089xa526.us.parker.corp assetName=query-pipelines source=query-pipelines includeOnly=ParkerDotComMain-EN
-
-node ./pullasset.js outFile=H:\currentprod\query-profiles.json sourceApp=ParkerDotComMain sourceHost=cor089a533.us.parker.corp assetName=query-profiles source=query-profiles http=true
-node ./pullasset.js outFile=H:\currentprod\query-pipelines.json sourceApp=ParkerDotComMain sourceHost=cor089a533.us.parker.corp assetName=query-pipelines source=query-pipelines http=true 
-node ./pullasset.js outFile=H:\currentprod\index-profiles.json sourceApp=ParkerDotComMain sourceHost=cor089a533.us.parker.corp assetName=index-profiles source=index-profiles http=true
-node ./pullasset.js outFile=H:\currentprod\index-pipelines.json sourceApp=ParkerDotComMain sourceHost=cor089a533.us.parker.corp assetName=index-pipelines source=index-pipelines http=true
-node ./pullasset.js outFile=H:\currentprod\datasources.json sourceApp=ParkerDotComMain sourceHost=cor089a533.us.parker.corp assetName=connectors/datasources http=true
- 
-node ./pullasset.js outFile=H:\currentprod\query-pipelines-ParkerDotComMain-EN2-cor089a541.json sourceApp=ParkerDotComMain sourceHost=cor089a541.us.parker.corp assetName=query-pipelines source=query-pipelines includeOnly=ParkerDotComMain-EN2
-
-
-node --inspect-brk ./pullasset.js outFile=H:\current\myparker.json sourceApp=ParkerDotComMain sourceHost=cor089ya110 assetName=query-pipelines source=query-pipelines includeOnly=MyParkerDotComMain-EN http=true
-
-
-node ./pullasset.js outFile=H:\currentprod\query-pipelines.json sourceApp=ParkerDotComMain sourceHost=cor089a541.us.parker.corp assetName=query-pipelines source=query-pipelines includeOnly=ParkerDotComMain-EconfigParts
-node ./pullasset.js outFile=H:\currentprod\query-pipelines-ParkerDotComMain-EN2.json http=true sourceApp=ParkerDotComMain sourceHost=cor089a533.us.parker.corp assetName=query-pipelines source=query-pipelines includeOnly=ParkerDotComMain-EN2
-
-
-node ./pullasset.js outFile=H:\currenttest\query-profiles.json sourceApp=ParkerDotComMain sourceHost=cor089xa526.us.parker.corp assetName=query-profiles source=query-profiles
-node ./pullasset.js outFile=H:\currenttest\query-pipelines.json sourceApp=ParkerDotComMain sourceHost=cor089xa526.us.parker.corp assetName=query-pipelines source=query-pipelines
-node ./pullasset.js outFile=H:\currenttest\index-profiles.json sourceApp=ParkerDotComMain sourceHost=cor089xa526.us.parker.corp assetName=index-profiles source=index-profiles
-node ./pullasset.js outFile=H:\currenttest\index-pipelines.json sourceApp=ParkerDotComMain sourceHost=cor089xa526.us.parker.corp assetName=index-pipelines source=index-pipelines
-node ./pullasset.js outFile=H:\currenttest\datasources.json sourceApp=ParkerDotComMain sourceHost=cor089xa526.us.parker.corp assetName=connectors/datasources
-node ./pullasset.js outFile=H:\currenttest\parsers.json sourceApp=ParkerDotComMain sourceHost=cor089xa526.us.parker.corp assetName=parsers source=parsers
-
-
-node ./pullasset.js outFile=H:\currentpreview\query-profiles.json sourceApp=ParkerDotComMain sourceHost=cor089a541.us.parker.corp assetName=query-profiles source=query-profiles
-node ./pullasset.js outFile=H:\currentpreview\query-pipelines.json sourceApp=ParkerDotComMain sourceHost=cor089a541.us.parker.corp assetName=query-pipelines source=query-pipelines
-node ./pullasset.js outFile=H:\currentpreview\index-profiles.json sourceApp=ParkerDotComMain sourceHost=cor089a541.us.parker.corp assetName=index-profiles source=index-profiles
-node ./pullasset.js outFile=H:\currentpreview\index-pipelines.json sourceApp=ParkerDotComMain sourceHost=cor089a541.us.parker.corp assetName=index-pipelines source=index-pipelines
-node ./pullasset.js outFile=H:\currentpreview\datasources.json sourceApp=ParkerDotComMain sourceHost=cor089a541.us.parker.corp assetName=connectors/datasources
-node ./pullasset.js outFile=H:\currentpreview\parsers.json sourceApp=ParkerDotComMain sourceHost=cor089a541.us.parker.corp assetName=parsers source=parsers
-
-
-node ./pullasset.js outFile=H:\currentprod\query-pipelines.json sourceApp=ParkerDotComMain sourceHost=cor089a533.us.parker.corp assetName=query-pipelines source=query-pipelines
- * 
+* 
  */
 
 
 
-var commandLine = {};
+const commandLine = {};
+
+process.env.forEach((val, index) => {
+  console.log(`${index}: ${val}`);
+  if( index > 1 ){
+	let v = val;
+	
+	if( v.indexOf("=") ){
+		let name = v.substring(0,v.indexOf("="));
+		commandLine[name] = v.substring(v.indexOf("=")+1);
+		if( commandLine[name].endsWith("'") && commandLine[name].startsWith("'") )
+			commandLine[name] = commandLine[name].substring(1,commandLine[name].length-2);
+	}
+  }
+});
+
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
 
 process.argv.forEach((val, index) => {
@@ -112,7 +59,7 @@ var outFile = commandLine.hasOwnProperty('outFile') ? commandLine['outFile'] : '
 var sourceHost = commandLine.hasOwnProperty('sourceHost') ? commandLine['sourceHost'] : "localhost";
 var sourcePort = commandLine.hasOwnProperty('sourcePort') ? commandLine['sourcePort'] : 443;
 var sourcePath = commandLine.hasOwnProperty('sourcePath') ? commandLine['sourcePath'] : "/api/" + (sourceApp ? 'apps/' + sourceApp + '/': '') + assetName;
-var sourceKey = commandLine.hasOwnProperty('sourceKey') ? commandLine['sourceKey'] : "YWRtaW46UGFya2VyMTIz";
+var sourceKey = commandLine.hasOwnProperty('sourceKey') ? commandLine['sourceKey'] : "xxx";
 var source = commandLine.hasOwnProperty('source') ? commandLine['source'] : assetName;
 var defaultObjects = commandLine.hasOwnProperty('defaultObjects') ? JSON.parse(commandLine['defaultObjects']) : {};
 
